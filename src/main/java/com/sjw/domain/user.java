@@ -3,17 +3,14 @@ package com.sjw.domain;
 public class user {
     private  String name;
     private  int age;
-
-    public user(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+    private Integer id;
 
     @Override
     public String toString() {
         return "user{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", id=" + id +
                 '}';
     }
 }
