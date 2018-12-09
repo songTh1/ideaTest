@@ -8,4 +8,12 @@ public class user {
         this.name = name;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "user{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
