@@ -4,6 +4,8 @@ public class user {
     private  String name;
     private  int age;
     private Integer id;
+    private  String address;
+
 
     @Override
     public String toString() {
@@ -11,6 +13,7 @@ public class user {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", id=" + id +
+                ", address='" + address + '\'' +
                 '}';
     }
 }
